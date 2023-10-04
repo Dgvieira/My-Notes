@@ -1,0 +1,85 @@
+
+.container-fluid-2 {
+    padding: 0 20%;
+}
+
+#back-btn {
+    border: none;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+#back-btn i {
+    color: #6C63FF;
+    font-size: 34px;
+    transition: .5s;
+}
+
+#back-btn i:hover {
+    color: #3F3D56;
+}
+
+.add-note-container {
+    margin: 100px 0 250px 0; 
+    -webkit-box-shadow: 0px 0px 20px 5px #C7C7C7; 
+    box-shadow: 0px 0px 20px 5px #C7C7C7;
+}
+
+.add-note-container input, .add-note-container textarea, .add-note-container button {
+    width: 100%;
+    border: none;
+    outline: 0;
+}
+
+.add-note-container input{
+    height: 40px;
+    background-color: #3F3D56;
+    color: #fff;
+    padding: 7px;
+    transition: .5s;
+}   
+
+.add-note-container input::placeholder {
+    color: #C7C7C7;
+}
+
+.note-container {
+    height: 450px;
+    background-color: #dcdaff;
+}
+
+.add-note-container textarea {
+    background-color: transparent;
+    color: #3F3D56;
+    padding: 7px;
+    height: 100%;
+    resize: none;
+}   
+
+.add-note-container textarea::placeholder {
+    color: #464553;
+}
+
+.add-note-container textarea::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+
+.add-note-container textarea::-webkit-scrollbar-track {
+    background: #938fc7;        /* color of the tracking area */
+}
+
+.add-note-container textarea::-webkit-scrollbar-thumb {
+    background-color: #696494;    /* color of the scroll thumb */
+}
+
+.add-note-container button {
+    height: 40px;
+    background-color: #6C63FF;
+    color: #fff;
+    padding: 7px;
+    transition: .5s;
+}
+
+.add-note-container button:hover {
+    background-color: #3F3D56;
+}

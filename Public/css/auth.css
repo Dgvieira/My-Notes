@@ -1,0 +1,126 @@
+
+.auth-container {
+    display: flex;
+    width: 70%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 200px;
+    -webkit-box-shadow: 0px 0px 20px 5px #C7C7C7; 
+    box-shadow: 0px 0px 20px 5px #C7C7C7;
+}
+
+.auth-container h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.login-container, .register-container{
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(108,99,255,1) 0%, rgba(108,99,255,1) 67%, rgba(150,99,255,1) 100%);
+    color: #fff;
+    padding: 50px 80px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.input-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3F3D56;
+    width: 40px;
+    height: 40px;
+    padding: 0 20px;
+}
+
+.input-icon-container i {
+    color: #C7C7C7;
+    font-size: 20px;
+    display: block;
+}
+
+#eye-icon {
+    cursor: pointer ;
+}
+
+#eye-icon:hover {
+    color: #fff;
+}
+
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.login-container p {
+    color: #C7C7C7;
+    text-align: center;
+    font-size: 15px;
+}
+
+.login-container p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.login-container p a:hover {
+    text-decoration: underline;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+
+.form-group input{
+    height: 40px;
+    padding: 7px;
+    border: none;
+    outline: 0;
+    background-color: #3F3D56;
+    color: #fff;
+    width: 100%;
+}
+
+
+
+.form-group input::placeholder{
+    color: #C7C7C7;
+}
+
+.sign-in-ilustration {
+    width: 50%;
+    height: 100%;
+}
+
+.sign-in-ilustration img {
+    width: 100%;
+    height: 100%;
+}
+
+.form-btn {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    padding: 9px;
+    border: none;
+    background-color: #fff;
+    color: #6C63FF;
+    transition: .5s;
+    margin-bottom: 20px;
+}
+
+.form-btn:hover {
+    background-color: #3F3D56;
+    color: #fff;
+}
